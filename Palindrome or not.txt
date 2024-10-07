@@ -1,0 +1,7 @@
+s = input()
+t = s.lower()
+tt = t[::-1]
+if(tt == t):
+    print("True")
+else:
+    print("False")
