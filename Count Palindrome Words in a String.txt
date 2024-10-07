@@ -1,0 +1,9 @@
+s = list(input().split())
+c=0
+for i in s:
+    l_s = i.lower()
+    t = l_s
+    r = t[::-1]
+    if(r==l_s):
+        c+=1
+print(c)
