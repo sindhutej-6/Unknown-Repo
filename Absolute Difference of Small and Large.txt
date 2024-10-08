@@ -1,0 +1,10 @@
+s = input().split()
+l = []
+for i in s:
+    a_v = [ord(j) for j in i]
+    max_v = max(a_v)
+    min_v = min(a_v)
+    diff = abs(max_v-min_v)
+    l.append(diff)
+for i in l:
+    print(i,end=" ")
