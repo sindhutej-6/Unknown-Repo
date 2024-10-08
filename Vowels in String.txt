@@ -1,0 +1,12 @@
+s = input()
+l = []
+seen = set()
+for i in s:
+    if i in "aeiouAEIOU" and i not in seen:
+        l.append(i)
+        seen.add(i)
+if len(l)==0:
+    print(-1)
+else:
+    for i in l:
+        print(i,end=" ")
