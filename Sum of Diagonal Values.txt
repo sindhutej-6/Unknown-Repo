@@ -1,0 +1,12 @@
+n,m = map(int,input().split())
+mat = []
+for i in range(n):
+    row = list(map(int,input().split()))
+    mat.append(row)
+l = []
+for i in range(n):
+    l.append(mat[i][i])
+    l.append(mat[i][n-1-i])
+if n%2!=0:
+    l.remove(l[len(l)//2])
+print(sum(l))
