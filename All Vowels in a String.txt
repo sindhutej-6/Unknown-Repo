@@ -1,0 +1,14 @@
+s = input()
+up = set('AEIOU')
+lc = set('aeiou')
+ups = set()
+lcs = set()
+for i in s:
+    if i in up:
+        ups.add(i)
+    elif i in lc:
+        lcs.add(i)
+if up.issubset(ups) or lc.issubset(lcs):
+    print("True")
+else:
+    print("False")
