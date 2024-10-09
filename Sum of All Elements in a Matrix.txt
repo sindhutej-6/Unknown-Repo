@@ -1,0 +1,6 @@
+r,c = map(int,input().split())
+m = []
+for i in range(r):
+    row  = list(map(int,input().split()))
+    m.append(sum(row))
+print(sum(m))
