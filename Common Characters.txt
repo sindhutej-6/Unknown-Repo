@@ -1,0 +1,14 @@
+s = input()
+s1 = input()
+s = set(s.lower())
+s1 = set(s1.lower())
+r = s.intersection(s1)
+if " " in r:
+    r.remove(" ")
+l = list(r)
+l.sort()
+if len(l)==0:
+    print(-1)
+else:
+    for i in l:
+        print(i,end='')
