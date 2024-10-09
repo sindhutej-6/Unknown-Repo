@@ -1,0 +1,14 @@
+s = input()
+seen = set()
+c= 0
+for i in s:
+    if i not in seen:
+        seen.add(i)
+    else:
+        c=1
+        break
+if c==1:
+    print("False")
+else:
+    print("True")
+    
