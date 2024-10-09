@@ -1,0 +1,19 @@
+r = int(input())
+m = []
+for i in range(r):
+    row = list(map(int,input().split()))
+    m.append(row)
+m1 = []
+for i in range(r):
+    row = list(map(int,input().split()))
+    m1.append(row)
+m2 = []
+for i in range(len(m)):
+    n_r = []
+    for j in range(len(m[0])):
+        n_r.append(m[i][j]+m1[i][j])
+    m2.append(n_r)
+for i in m2:
+    for j in i:
+        print(j,end=" ")
+    print()
