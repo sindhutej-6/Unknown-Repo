@@ -1,0 +1,14 @@
+r,c = map(int,input().split())
+m = []
+for i in range(r):
+    row = list(map(int,input().split()))
+    m.append(row)
+e = 0
+o = 0
+for i in range(r):
+    for j in m[i]:
+        if j%2==0:
+            e+=j
+        else:
+            o+=j
+print(e,o)
