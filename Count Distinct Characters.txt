@@ -1,0 +1,5 @@
+s = input()
+s = set(s.lower())
+if ' ' in s:
+    s.remove(' ')
+print(len(s))
