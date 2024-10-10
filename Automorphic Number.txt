@@ -1,0 +1,8 @@
+n = int(input())
+s = n*n
+n = str(n)
+s = str(s)
+if s.endswith(n):
+    print("Automorphic Number")
+else:
+    print("Not an Automorphic Number")
