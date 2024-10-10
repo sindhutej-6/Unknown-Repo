@@ -1,0 +1,8 @@
+s = input()
+s = set(s.lower())
+if ' ' in s:
+    s.remove(' ')
+s = list(s)
+s.sort()
+for i in s:
+    print(i,end='')
