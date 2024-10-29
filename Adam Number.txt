@@ -1,0 +1,12 @@
+n = input()
+t = int(n)
+m = int(n[::-1])
+t = t*t
+m = m*m
+m = str(m)
+m = m[::-1]
+t = str(t)
+if m==t:
+    print("True")
+else:
+    print("False")
