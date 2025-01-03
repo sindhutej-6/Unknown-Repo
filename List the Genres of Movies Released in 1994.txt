@@ -1,0 +1,1 @@
+select GENRE from Movies where RELEASEYEAR = 1994;
