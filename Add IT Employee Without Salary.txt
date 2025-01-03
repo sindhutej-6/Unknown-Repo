@@ -1,0 +1,2 @@
+insert into Employees(EMP_ID,EMP_NAME,DEPARTMENT,SALARY) values(7,'Grace Hall','IT',NULL);
+select * from Employees;
